@@ -16,10 +16,11 @@ body {
 }
 .header {
   padding-left: 35px;
-  padding-top: 35px;
+  margin-top: 35px;
   padding: 35px 0px 20px 35px;
   display: flex;
 background-color: #EBF3FB;
+border-radius: 10px;
 }
 .header_photo {
   width: 200px;
@@ -58,4 +59,31 @@ h2{margin-bottom: 15px;}
 }
 .summary_text, .skills_list, .education_text, .english_text{
   padding-left: 35px;
+}
+
+/*FOOTER*/
+
+.nav{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 25.12%);
+}
+.list_footer{
+  display: flex;
+  list-style: none;
+  width: 300px;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.github, .rs_school, .youtube{
+  width: 50px;
+  height: auto;
+}
+.link_footer{
+  display: flex;
+  justify-content: center;
+}
+.rs_school{
+  padding-top: 10px;
 }

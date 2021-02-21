@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+/*HEADER*/
+
+.container {
+  max-width: 1250px;
+  margin: auto;
+}
+.header {
+  padding-left: 35px;
+  padding-top: 35px;
+  padding: 35px 0px 20px 35px;
+  display: flex;
+  background-color: blanchedalmond;
+}
+.header_photo {
+  width: 200px;
+  height: auto;
+}
+.top_contact {
+  padding-left: 35px;
+  list-style: none;
+}
+.contact_mail {
+  padding-top: 35px;
+}
+.contact_tel {
+  padding-top: 15px;
+}

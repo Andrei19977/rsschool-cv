@@ -19,7 +19,7 @@ body {
   padding-top: 35px;
   padding: 35px 0px 20px 35px;
   display: flex;
-  background-color: blanchedalmond;
+background-color: #EBF3FB;
 }
 .header_photo {
   width: 200px;
@@ -34,4 +34,28 @@ body {
 }
 .contact_tel {
   padding-top: 15px;
+}
+
+/*MAIN*/
+
+.main{
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+}
+.summary_skills_info{
+  display: flex;
+  justify-content:space-around;
+}
+.summary_info, .skills_info, .education_info, .english_info{
+  width: 500px;
+}
+h2{margin-bottom: 15px;}
+.education_english_info{
+  display: flex;
+  justify-content:space-around;
+  padding-top: 35px;
+}
+.summary_text, .skills_list, .education_text, .english_text{
+  padding-left: 35px;
 }

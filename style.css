@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+/*HEADER*/
+
+.container {
+  max-width: 1250px;
+  margin: auto;
+}
+.header {
+  padding-left: 35px;
+  margin-top: 35px;
+  padding: 35px 0px 20px 35px;
+  display: flex;
+background-color: #EBF3FB;
+border-radius: 10px;
+}
+.header_photo {
+  width: 200px;
+  height: auto;
+}
+.top_contact {
+  padding-left: 35px;
+  list-style: none;
+}
+.contact_mail {
+  padding-top: 35px;
+}
+.contact_tel {
+  padding-top: 15px;
+}
+
+/*MAIN*/
+
+.main{
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+}
+.summary_skills_info{
+  display: flex;
+  justify-content:space-around;
+}
+.summary_info, .skills_info, .education_info, .english_info{
+  width: 500px;
+}
+h2{margin-bottom: 15px;}
+.education_english_info{
+  display: flex;
+  justify-content:space-around;
+  padding-top: 35px;
+}
+.summary_text, .skills_list, .education_text, .english_text{
+  padding-left: 35px;
+}
+
+/*FOOTER*/
+
+.nav{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 25.12%);
+}
+.list_footer{
+  display: flex;
+  list-style: none;
+  width: 300px;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.github, .rs_school, .youtube{
+  width: 50px;
+  height: auto;
+}
+.link_footer{
+  display: flex;
+  justify-content: center;
+}
+.rs_school{
+  padding-top: 10px;
+}
